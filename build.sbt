@@ -1,10 +1,10 @@
 name := "sbt-aws-lambda"
 
-organization := "com.gilt.sbt"
+organization := "com.beamly"
 
 sbtPlugin := true
 
-version in ThisBuild := "git describe --tags --always --dirty".!!.trim.replaceFirst("^v", "")
+version in ThisBuild := "1.0.0-SNAPSHOT"
 
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.13.0")
 

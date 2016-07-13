@@ -13,13 +13,13 @@ publishArtifact in Test := false
 
 pomIncludeRepository := { _ => false }
 
-sonatypeProfileName := "com.gilt"
+sonatypeProfileName := "com.beamly"
 
 pomExtra := {
-  <url>https://github.com/gilt/sbt-aws-lambda</url>
+  <url>https://github.com/beamly/sbt-aws-lambda</url>
   <scm>
-    <url>git@github.com:gilt/sbt-aws-lambda.git</url>
-    <connection>scm:git:git@github.com:gilt/sbt-aws-lambda.git</connection>
+    <url>git@github.com:beamly/sbt-aws-lambda.git</url>
+    <connection>scm:git:git@github.com:beamly/sbt-aws-lambda.git</connection>
   </scm>
   <licenses>
     <license>

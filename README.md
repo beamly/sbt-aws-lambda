@@ -1,4 +1,12 @@
-# sbt-aws-lambda
+# sbt-aws-lambda - forked by Beamly
+
+A (hopefully temporary) fork of [gilt/sbt-aws-lambda][].
+
+The rest of the original README follows below.
+
+[gilt/sbt-aws-lambda]: https://github.com/gilt/sbt-aws-lambda
+
+---
 
 sbt plugin to deploy code to AWS Lambda
 
