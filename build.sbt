@@ -4,7 +4,7 @@ organization := "com.beamly"
 
 sbtPlugin := true
 
-version in ThisBuild := "1.0.1-SNAPSHOT"
+version in ThisBuild := "1.0.1"
 
 addSbtPlugin("com.eed3si9n" % "sbt-assembly" % "0.14.3")
 
